@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="199.0" prefWidth="424.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.controller.DeleteController">
+   <children>
+      <TextField fx:id="ddeleteId" focusTraversable="false" layoutX="79.0" layoutY="70.0" prefHeight="59.0" prefWidth="265.0" promptText="请输入你想删除的学生学号" />
+      <Button focusTraversable="false" layoutX="117.0" layoutY="155.0" mnemonicParsing="false" text="删除" onAction="#delete"/>
+      <Button focusTraversable="false" layoutX="246.0" layoutY="155.0" mnemonicParsing="false" text="取消" onAction="#close" />
+      <Text layoutX="157.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="删除学生信息" />
+   </children>
+</AnchorPane>
